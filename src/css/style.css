@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    width: 95%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  27px 27px 54px #d9d9d9,
+                 -27px -27px 54px #ffffff;
+    margin: 5px 2.5% auto 2.5%  ;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+.iconNav{
+    font-size: 1.6em;
+}
+.searchIcon{
+    background-color: red;
+    width: 210px;
+    height: 30px;
+    border-radius: 10px;
+    background: #f1eded;
+    box-shadow:  27px 27px 54px #d9d9d9,
+                 -27px -27px 54px #ffffff;
+    padding: 5px;
+
+}
+.searchIcon input{
+    width: 85%;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.iconNav-serash{
+    font-size: 1.1em;
+    margin: auto;
+}
+.content-img{
+    width: 20%;
+    height: 100%;
+}
+.content-img img{
+    width: 100%;
+    height: 100%;
+}
+.list-menu{
+    width: 70%;
+    height: 30%;
+    margin-right: 25px;
+    display: flex;
+    border-left: 1px solid black;
+
+}
+.list-menu ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.list-menu ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.list-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.cartWidget{
+    border-left: 1px solid black;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+
+}
+.btnCaja{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background: #ffffff;
+    box-shadow:  27px 27px 54px #d9d9d9,
+                 -27px -27px 54px #ffffff;
+}
+.cajabtn{
+    font-size: 1.3em;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    width: 50% ;
+    text-align: center;
+    border: none;
+    background-color: white;
+    color: rgb(29, 191, 228);
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+.countNumber{
+    display: block;
+    width: 10%;
+    text-align: center;
+}
+.btnAgregar{
+    width: 400%;
+    border:1px solid rgb(55, 147, 194);
+    height: 70%;
+    background-color: white;
+    color: rgb(55, 147, 194);
+    margin-left: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.containerProdTabla{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 40px;
+    column-gap: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 150px;
+}
+.cajaArticulo{
+    width: 250px;
+    height: 360px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  27px 27px 54px #d9d9d9,
+                 -27px -27px 54px #ffffff;
+    padding: 10px;
+}
+.cajaImagen{
+    width: 80%;
+    height: 55%;
+    margin: auto auto 10px auto;
+    transition: .5s all;
+}
+.cajaImagen:hover{
+    transform: scale(1.1);
+}
+.cajaImagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+    
+}
+.cajaDatos{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+
+}
+.btnVer{
+    width: 150px;
+    border:1px solid rgb(55, 147, 194);
+    height: 35px;
+    background-color: white;
+    color: rgb(233, 240, 243);
+    cursor: pointer;
+    margin-top: 10px;    
+    border-radius: 5px;
+    font-size: 1.1em;
+    background-color: #276967;
+}
+.btnLin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active{
+    color: red;
+    background-color: red;
+}
+.cajaCardProduct{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto auto auto;
+}
+.cardProduct{
+    border-radius: 10px ;
+    background: #ffffff;
+    box-shadow:  27px 27px 54px #d9d9d9,
+                 -27px -27px 54px #ffffff;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 140px auto auto auto;
+}
+.cardImg{
+    width: 50%;
+    height: 90%;
+    border-right: 1px solid rgb(30, 187, 211);
+}
+.cardImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.infoCard{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.linkVer{
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: rgb(248, 246, 246);
+    background-color: #276967;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: .5s ;
+}
+.linkVer:hover{
+    transform: scale(1.2);
+}
+/*Footer*/
+.cajaFooter{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    background-position: center;
+    color: white;
+    z-index: 10;
+    text-align: center;
+}
+.cajaFooter .cajaIcon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+.cajaFooter .cajaIcon ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cajaFooter ul li{
+    list-style: none;
+}
+.cajaFooter ul li i {
+    font-size: 1.5em;
+    transition: .5s;
+}
+.cajaFooter ul li i:hover{
+    transform: scale(1.3);
+}
+.posicionContent{
+    margin-top: 150px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.cajaPrincipal{
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    background: rgba(224, 212, 158,.2);
+    margin: 180px auto;
+
+}
+.primerNivel{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.imgagenAprende{
+    width: 45%;
+    height: 450px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.imgagenAprende .imgAprende{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.imgagenAprende .imgAprende:hover{
+    transform: scale(1.1);
+
+}
+.imgAnumcio{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgAnumcio h1{
+    font-size:1.4em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imgAnumcio ul{
+    width: auto;
+    margin-left: 10px;
+}
+.imgAnumcio ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    margin: 10px;
+    list-style-type:disc;
+}
+.contentCollage{
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.contentCollage .contentImg{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.contentImg:hover{
+    transform: scale(1.2);
+}
+.segundoNivel{
+    margin: 50px auto 50px auto;
+    width: 100%;
+    height: auto;
+}
+.promociones{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.promo{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.contaImg{
+    width: 100%;
+    height: 100%;
+    position:absolute ;
+    z-index: 1;
+}
+.contaImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+    
+}
+.promo img:hover{
+    transform: scale(1.1);
+}
+.info{
+    background: linear-gradient(transparent,rgba(14, 14, 14,.8)) ;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.info h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info p{
+    font-size: 1.2em;
+    color: wheat;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.info p > span{
+    text-decoration:line-through ;
+}
+.tercerNivel{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.tercerNivel > ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tercerNivel > ul > li{
+    list-style: none;
+}
+.tercerNivel > ul > li i {
+    font-size: 2.4em;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    transition: .5s;
+    color: brown;
+    border-radius: 50px;
+
+}
+.tercerNivel > ul > li i:hover{
+    transform: scale(1.2);
+}
+/*carrito*/
+.containerCarrito{
+    width: 90%;
+    height: auto;
+    margin:  auto auto;
+}
+.submenu{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px auto auto;
+    
+}
+.carContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px auto;
+}
+.carImagen .imgCompra{
+    width: 50%;
+    height: 100%;
+}
+.carImagen .imgCompra p{
+    font-size: .8em;
+}
+.imgCompra img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+.casillas{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pagar{
+    margin-top: 10px;
+    margin-bottom: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pagarOVaciar{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: #b8293d;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+/*estilos cuando el carrito esta vacio*/
+.cajaMessag{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/dl4ui6tel/image/upload/v1669355750/ESKEYBOR_jlywm9.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    margin-top: 170px;
+    border-radius: 10px;
+}
+.cajaMessag h1{
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #08a8ff;
+    background-color: rgb(7, 6, 6);
+    padding: 0 10px;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+.cajaMessag .carritoReturn{
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.cajaForm{
+ width: 90vw;
+ height: 300px;
+ background-color: rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(20px);
+                box-shadow: 0 10px 20px 5px rgba(0,0,0,0.05);
+border: 1px solid rgba(255,255,255,0.5);
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ padding: 20px;
+ margin: auto;
+}
+.containerInput{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerInput {
+    border-radius: 5px;
+    width: 60%;
+    height: 80px;
+    display: flex;
+    overflow: hidden;
+}
+.containerInput input{
+    width: 50%;
+    height: 100%;
+    font-size: .8em;
+    margin: auto;
+    border:none;
+    border-bottom: 1px solid #e88431;
+    background-color: transparent;
+    outline: none;
+}
+
+.containerInput input::placeholder{
+    color:rgb(137, 134, 134);
+    transition: .5s;
+}
+input:focus::placeholder{
+    transform: translateY(30px);
+}
+
+.pedido{
+    width: 90%;
+    height: 300px;
+    z-index: 100;
+    margin: 200px auto;
+    background-color: rgb(217, 184, 184);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
+.pedido div > p{
+    font-size: .8rem;
+}
+.pedido p span{
+    letter-spacing: 1px;
+    font-size: .9rem;
+    font-weight: 900;
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/skateORskate/static/css/main.c30f0b4a.css",
+    "main.js": "/skateORskate/static/js/main.1853a380.js",
+    "static/media/pre1.jpg": "/skateORskate/static/media/pre1.466c61c1b703a72ae6b7.jpg",
+    "static/media/pre4.jpg": "/skateORskate/static/media/pre4.740343e7dcf654491ab7.jpg",
+    "static/media/pre2.jpg": "/skateORskate/static/media/pre2.d806846dd53195e15324.jpg",
+    "static/media/aprende.jpg": "/skateORskate/static/media/aprende.fc9a9de50d14a54d035f.jpg",
+    "static/media/logo2.svg": "/skateORskate/static/media/logo2.9ca679c218f3ffc4d6d9deb484d918d3.svg",
+    "static/media/pre3.jpg": "/skateORskate/static/media/pre3.d0a3a31404ddca2b305e.jpg",
+    "static/media/pre5.jpg": "/skateORskate/static/media/pre5.e8513d7f831a162001cd.jpg",
+    "index.html": "/skateORskate/index.html",
+    "main.c30f0b4a.css.map": "/skateORskate/static/css/main.c30f0b4a.css.map",
+    "main.1853a380.js.map": "/skateORskate/static/js/main.1853a380.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c30f0b4a.css",
+    "static/js/main.1853a380.js"
+  ]
+}

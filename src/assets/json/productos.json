@@ -1,0 +1,558 @@
+[
+    {   
+        "id": 1,
+        "nombre":"Tabla Spider-man",
+        "precio":1590,
+        "talla":"S, M, L",
+        "stock":12,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231037/tabla1_etg8gv.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 2,
+        "nombre":"Tabla M-8-Negro",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":23,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231039/tabla2_e8kql0.png",
+        "categoria":1
+    },
+    {   
+        "id": 3,
+        "nombre":"Tabla M-IRON_MAN",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":33,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231029/tabla3_flroaa.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 4,
+        "nombre":"Tabla M-Art_Cuervos",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":31,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231027/tabla4_fxgnvh.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 5,
+        "nombre":"Tabla M-Nergro Rojo-Spider",
+        "precio":789,
+        "talla":"S, M, L",
+        "stock":13,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231025/tabla5_frl2fo.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 6,
+        "nombre":"Tabla M-D89",
+        "precio":1190,
+        "talla":"S, M, L",
+        "stock":23,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231024/tabla6_didb1x.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 7,
+        "nombre":"Tabla M-11_L-B&N",
+        "precio":1290,
+        "talla":"S, M, L",
+        "stock":13,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231032/tabla7_vaeljx.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 8,
+        "nombre":"Tabla M-Ch-S_po",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":12,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231049/tabla8_gps3td.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 9,
+        "nombre":"Tabla M-R-pant",
+        "precio":999,
+        "talla":"S, M, L",
+        "stock":32,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231051/tabla9_edmplg.png ",
+        "categoria":1
+    },
+    {   
+        "id": 10,
+        "nombre":"Tabla M-ICE",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":15,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231036/tabla10_ztzqjg.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 11,
+        "nombre":"Tabla M-BlueCats",
+        "precio":789,
+        "talla":"S, M, L",
+        "stock":51,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231036/tabla11_oj9jzn.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 12,
+        "nombre":"Tabla M-torutur-Ninj",
+        "precio":1690,
+        "talla":"S, M, L",
+        "stock":38,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231039/tabla12_oezmaw.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 13,
+        "nombre":"Tabla M-one-Way",
+        "precio":1790,
+        "talla":"S, M, L",
+        "stock":19,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231035/tabla13_qt6ufv.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 14,
+        "nombre":"Tabla M-Skeleton-B%W",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":17,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231039/tabla14_kqoccb.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 15,
+        "nombre":"Tabla M-TUNES",
+        "precio":1090,
+        "talla":"S, M, L",
+        "stock":29,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231051/tabla15_y84ckg.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 16,
+        "nombre":"Tabla M-Adventure-Time",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":28,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231042/tabla16_okavly.jpg",
+        "categoria":1
+    },
+    {   
+        "id": 17,
+        "nombre":"Tabla M-Space-Cadel",
+        "precio":999,
+        "talla":"S, M, L",
+        "stock":29,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231040/tabla17_xywwlt.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 18,
+        "nombre":"Tabla M-Thunder-Pink",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":34,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231042/tabla18_bhukjq.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 19,
+        "nombre":"Tabla M-Blue-HelloKity",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":16,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231042/tabla19_fqjc8c.jpg ",
+        "categoria":1
+    },
+    {   
+        "id": 20,
+        "nombre":"Tabla M-White-Ros",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":34,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231043/tabla20_h5smrd.jpg ",
+        "categoria":1
+    },
+    {
+        "id": 21,
+        "nombre":"Casco Purpure",
+        "precio":949,
+        "talla":"S, M, L",
+        "stock":24,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231031/casco1_nug3mi.jpg ",
+        "categoria":2
+    },
+    {
+        "id":22 ,
+        "nombre":"Casco white",
+        "precio":949,
+        "talla":"S, M, L",
+        "stock":14,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231028/casco2_vmi0wb.jpg",
+        "categoria":2
+    },
+    {
+        "id": 23,
+        "nombre":"Casco Personalisada",
+        "precio":1259,
+        "talla":"S, M, L",
+        "stock":23,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231033/casco3_hkm17m.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 24,
+        "nombre":"Casco Personalizada",
+        "precio":1259,
+        "talla":"S, M, L",
+        "stock":13,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231029/casco4_jc7gu4.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 25,
+        "nombre":"Casco Black ",
+        "precio":711,
+        "talla":"S, M, L",
+        "stock":32,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231023/casco5_h7qzi4.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 26,
+        "nombre":"Casco Edicion Especial",
+        "precio":1899,
+        "talla":"S, M, L",
+        "stock":23,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231030/casco6_ldk7hk.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 27,
+        "nombre":"Rodilleras con proteccion doble capa",
+        "precio":569,
+        "talla":"S, M, L",
+        "stock":13,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231035/rodilleras1_xrxqqr.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 28,
+        "nombre":"Set de Rodilleras y Codilleras",
+        "precio":690,
+        "talla":"S, M, L",
+        "stock":14,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231030/rodilleras2_t1mhlf.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 29,
+        "nombre":"Rodilleras reforzados",
+        "precio":490,
+        "talla":"S, M, L",
+        "stock":13,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231031/rodilleras3_tlv8fa.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 30,
+        "nombre":"Rodilleras Pink",
+        "precio":369,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231033/rodilleras4_uydiyw.png",
+        "categoria":2
+    },
+    {
+        "id": 31,
+        "nombre":"Rodilleras Red",
+        "precio":390,
+        "talla":"S, M, L",
+        "stock":14,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231027/rodilleras5_b3o4b0.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 32,
+        "nombre":"Rodilleras RosePink",
+        "precio":390,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231026/rodilleras6_ubu8xv.jpg",
+        "categoria":2
+    },
+    {
+        "id": 33,
+        "nombre":"Guantes blue",
+        "precio":349,
+        "talla":"S, M, L",
+        "stock":16,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231038/guantes1_sxet8n.jpg",
+        "categoria":2
+    },
+    {
+        "id": 34,
+        "nombre":"Guantes purple, acolchonados",
+        "precio":199,
+        "talla":"S, M, L",
+        "stock":15,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231039/guantes2_lvtdiy.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 35,
+        "nombre":"Guantes acolchonado recubrimiento completo",
+        "precio":435,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231046/guantes3_fggits.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 36,
+        "nombre":"Guantes dedos recortados ",
+        "precio":239,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231037/guantes4_yp6bhp.jpg ",
+        "categoria":2
+    },
+    {
+        "id": 37,
+        "nombre":"Guantes Reforzados con protección",
+        "precio":718,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231041/guantes5_eqvnbp.jpg",
+        "categoria":2
+    },
+    {
+        "id":38 ,
+        "nombre":"Guantes Tacticos reforzados",
+        "precio":530,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231034/guantes6_nearcd.jpg ",
+        "categoria":2
+    },{
+        "id": 39,
+        "nombre":"Pantalones skate femenil Vans",
+        "precio":584,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231023/pantalon1_jtfme8.jpg",
+        "categoria":3
+    },
+    {
+        "id": 40,
+        "nombre":"Pantalones Baggy cord",
+        "precio":2248,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231024/pantalon2_bf6q5d.jpg",
+        "categoria":3
+    },
+    {
+        "id": 41,
+        "nombre":"Pantalones Volcom",
+        "precio":1248,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231028/pantalon3_eudtrn.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 42,
+        "nombre":"Pantalones Volcom varonil",
+        "precio":989,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231033/pantalon4_cgqmu3.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 43,
+        "nombre":"Pantalones Vans varonil",
+        "precio":1390,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231034/pantalon5_siskif.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 44,
+        "nombre":"Pantalones Dickies Double",
+        "precio":1490,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231029/pantalon6_quoqsc.jpg",
+        "categoria":3
+    },
+    {
+        "id": 45,
+        "nombre":"Playera chainsaw",
+        "precio":199,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231043/playera1_j9xasm.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 46,
+        "nombre":"Playera pochita",
+        "precio":299,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231043/playera2_mwvkb2.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 47,
+        "nombre":"Playera thrasher",
+        "precio":355,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231043/playera3_sxkydb.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 48,
+        "nombre":"Playera Demon Slayer",
+        "precio":335,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231041/playera4_eiwxkh.jpg",
+        "categoria":3
+    },
+    {
+        "id": 49,
+        "nombre":"Playera con estampado",
+        "precio":274,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231041/playera5_lug5n7.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 50,
+        "nombre":"Playera Piendfiel",
+        "precio":502,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231046/playera6_tojhr6.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 51,
+        "nombre":"Gorra de Baseboll",
+        "precio":243,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231049/gorra1_qmbd4o.jpg",
+        "categoria":3
+    },
+    {
+        "id": 52,
+        "nombre":"Sombrero Vans",
+        "precio":508,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231048/gorra2_dwi3co.jpg ",
+        "categoria":3
+    },
+    {
+        "id": 53,
+        "nombre":"Gorro Vans",
+        "precio":679,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231049/gorra3_qusu5d.jpg",
+        "categoria":3
+    },
+    {
+        "id": 54,
+        "nombre":"Gorra Vans",
+        "precio":549,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231043/gorra4_upffir.jpg",
+        "categoria":3
+    },
+    {
+        "id": 55,
+        "nombre":"Gorro Hipster, Skate",
+        "precio":612,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231045/gorra5_xrwcpc.jpg",
+        "categoria":3
+    },
+    {
+        "id": 56,
+        "nombre":"Gorra Skaters",
+        "precio":840,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231047/gorra6_ercpzd.jpg",
+        "categoria":3
+    },{
+        "id": 57,
+        "nombre":"Tenis Adidas",
+        "precio":1259,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231050/tenis1_mnf4va.jpg",
+        "categoria":4
+    },
+    {
+        "id": 58,
+        "nombre":"Tenis Vans",
+        "precio":1450,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231048/tenis2_xolptk.jpg ",
+        "categoria":4
+    },
+    {
+        "id": 59,
+        "nombre":"Tenis Vans white",
+        "precio":2300,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231049/tenis3_tcarij.jpg ",
+        "categoria":4
+    },
+    {
+        "id": 60,
+        "nombre":"Tenis Vans Purple",
+        "precio":1300,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":"https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231046/tenis4_a1nspo.jpg ",
+        "categoria":4
+    },
+    {
+        "id": 61,
+        "nombre":"Tenis blue Vans",
+        "precio":1350,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231046/tenis5_kxcdn8.jpg",
+        "categoria":4
+    },
+    {
+        "id": 62,
+        "nombre":"Tenis Red and white Nike",
+        "precio":1800,
+        "talla":"S, M, L",
+        "stock":3,
+        "img":" https://res.cloudinary.com/dl4ui6tel/image/upload/v1668231046/tenis6_pczen9.jpg",
+        "categoria":4
+    }
+]
